@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+a{
+  text-decoration: none;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.links a {
+    border-radius: 5px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo-evon{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: rgb(64, 124, 234);
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+.icon-evon1{
+  position: relative;
+  left: 4px;
+}
+.btn1{
+  background: rgb(64, 124, 234);
+  border: 1px solid rgb(64, 124, 234);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.icon-evon2{
+  position: relative;
+  left: -4px;
+}
+.btn2{
+  color: rgb(64, 124, 234);
+  border: 1px solid rgb(64, 124, 234);
+}
+.myInput{
+  width: 50%;
+}
+input{
+  background: rgb(234, 233, 233);
+  border-radius: 5px;
+  padding: 8px;
+  border: none;
+}
+.my-hr{
+  width: 24%;
+}
+.btn-sign{
+  width: 50%;
+}
+@media screen and (max-width: 567px) {
+  .myInput{
+    width: 100%;
+  }
+  input, .btn-sign{
+    width: 80%;
+  }
+  .my-hr{
+    width: 50%;
+  }
+  .google{
+    position: relative;
+    top: 10px;
+  }
+  
+}
+input::placeholder{
+  position: relative;
+  left: 2px;
+  font-weight: bold;
+}
+.facebook, .google{
+  border: 1px solid black;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.signUp, .login{
+  margin-top: 90px;
 }
