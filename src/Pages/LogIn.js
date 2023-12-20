@@ -17,7 +17,7 @@ const LogIn = () => {
           </Col>
           <Col md={12} xs={12} className='text-center'>
             <Form>
-              <FormGroup>
+              <FormGroup className='d-flex flex-column justify-content-center'>
                   <div className="myInput mb-2">
                       <input type="text" name='email' className='form-control' placeholder='Email'/>
                     </div>
